@@ -81,7 +81,6 @@ public class ManejoExcusasTest {
     public void testExcusaRechazada() {
         Excusa excusa = new Excusa(empleadoRechazado, null); // null a propósito
         recepcionista.manejarExcusa(excusa);
-        // Esperamos: "Excusa rechazada: necesitamos pruebas contundentes."
     }
 
     @Test
